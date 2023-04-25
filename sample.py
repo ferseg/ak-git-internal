@@ -1,7 +1,6 @@
-def prints():
-    print('Hello world')
-    print('Bye world!')
+def greet(name):
+    print(f'Hello {name}')
 
-    print('another print')
-
-prints()
+greet('Fernando')
+greet('Joseling')
+greet('Esteban')
