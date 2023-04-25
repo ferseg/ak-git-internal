@@ -1,4 +1,7 @@
-print('Hello world')
-print('Bye world!')
+def prints():
+    print('Hello world')
+    print('Bye world!')
 
-print('another print')
+    print('another print')
+
+prints()
