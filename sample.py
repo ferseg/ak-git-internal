@@ -1,15 +1,24 @@
-# Estado anterior
-def greet(name):
-    print(f'Hello {name}')
+class Greet: 
+    def __init__(self, name):
+        self.name = name
 
-greet('Fernando')
-greet('Joseling')
-greet('Esteban')
+    def greet(self):
+        print(f'Hello {self.name}')
 
-# Cambios del companero
+# greet('Fernando')
+# greet('Joseling')
+# greet('Esteban')
+
+greet_fer = Greet('Fernando')
+greet_fer.greet()
+
+greet_jos = Greet('Joseling')
+greet_jo.greet()
+
 class Some:
     def print(self):
         print("some")
 
 s = Some()
 s.print()
+
