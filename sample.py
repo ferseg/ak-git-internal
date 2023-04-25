@@ -11,3 +11,7 @@ class Greet:
 
 greet_fer = Greet('Fernando')
 greet_fer.greet()
+
+greet_jos = Greet('Joseling')
+greet_jo.greet()
+
