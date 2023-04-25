@@ -15,3 +15,10 @@ greet_fer.greet()
 greet_jos = Greet('Joseling')
 greet_jo.greet()
 
+class Some:
+    def print(self):
+        print("some")
+
+s = Some()
+s.print()
+
